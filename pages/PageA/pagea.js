@@ -7,7 +7,12 @@ Page({
    * 页面的初始数据
    */
   data: {
-    pageList: []
+    pageList: [],
+    templateData: {
+      index: 0,
+      msg: 'this is a template',
+      time: '2016-09-15'
+    }
   },
 
   /**

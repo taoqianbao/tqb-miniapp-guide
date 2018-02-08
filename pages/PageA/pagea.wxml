@@ -1,4 +1,6 @@
 <!--pages/PageA/pagea.wxml-->
+<import src="/components/templates/msgItem.wxml"/>
+
 <view class='app'>
   <view>
     <mini-quickmenu></mini-quickmenu>
@@ -6,6 +8,11 @@
 
   <view>
     This is PageA ( Tabbar 页面 )
+  </view>
+
+  <view style="margin:20rpx; background:#dcdcdc;">
+    <text>this is demo about Template</text>
+    <template is="msgItem" data="{{...templateData}}" />
   </view>
 
   <block wx:for="{{pageList}}" wx:key>

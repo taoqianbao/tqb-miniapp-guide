@@ -1,0 +1,52 @@
+<!--pages/list/list.wxml-->
+<view>
+  <view class="search-container">
+    <input type="text" bindinput="searchInputEvent" placeholder="输入书名搜索"></input>
+    <icon bindtap="searchClickEvent" type="search" size="20" />
+  </view>
+
+  <scroll-view scroll-y="true" style="height:{{scrollHeight}}px" bindscrolltolower="scrollLowerEvent">
+
+    <view class="logo" wx:if="{{!loadingMore && totalRecord == 0 && !isInit}}">
+      <icon type="cancel" color="#B0AAAA" size="50" />
+      <view>
+        <text>没有找到相关资料</text>
+      </view>
+    </view>
+
+    <view class="logo" wx:if="{{isInit}}">
+      <view>
+        <text>GitHub</text>
+      </view>
+      <text style="font-size:30rpx;">Designed by Peter</text>
+    </view>
+
+    <view class="header" wx:if="{{totalRecord > 0 && !isInit}}">
+      <text>一共 {{totalRecord}}条记录</text>
+    </view>
+
+    <view class="common-list" wx:if="{{totalRecord > 0}}">
+
+      <block wx:for="{{pageData}}">
+        <view class="list-item" data-bid="{{item.id}}" bindtap="toDetailPage">
+          <view class="index-list-item">
+            <view class="cover">
+              <image class="cover-img" src="https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=1649268205,1229776918&fm=173&w=218&h=146&img.JPG"></image>
+            </view>
+            <view class="content">
+              <view class="title">{{item.name}}</view>
+              <text class="desc">{{item.url}}{{item.created_at}}</text>
+            </view>
+          </view>
+        </view>
+      </block>
+
+    </view>
+
+    <view class="refresh-footer" wx:if="{{loadingMore}}">
+      <icon type="waiting" size="30" color="{{footerIconColor}}" />
+    </view>
+
+  </scroll-view>
+
+</view>

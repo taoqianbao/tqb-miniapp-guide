@@ -1,0 +1,16 @@
+<!--pages/PageA/pagea.wxml-->
+<view class='app'>
+  <view>
+    <mini-quickmenu></mini-quickmenu>
+  </view>
+
+  <view>
+    This is PageA ( Tabbar 页面 )
+  </view>
+
+  <block wx:for="{{pageList}}" wx:key>
+    <view class='item'>
+      {{index}}: {{item.route}}
+    </view>
+  </block>
+</view>

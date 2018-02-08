@@ -1,0 +1,15 @@
+<!--pages/PageD/paged.wxml-->
+<view>
+  <view>
+    <mini-quickmenu></mini-quickmenu>
+  </view>
+
+  <view>
+    This is PageD
+  </view>
+  <block wx:for="{{pageList}}" wx:key>
+    <view class='item'>
+      {{index}}: {{item.route}}
+    </view>
+  </block>
+</view>

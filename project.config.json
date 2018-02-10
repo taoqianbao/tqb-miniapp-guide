@@ -10,7 +10,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "1.9.91",
 	"appid": "touristappid",
-	"projectname": "tqb-step-one",
+	"projectname": "tqb-weapp-freshmall",
 	"condition": {
 		"search": {
 			"current": -1,

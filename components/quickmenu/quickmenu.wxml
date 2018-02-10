@@ -1,7 +1,0 @@
-<!--components/quickmenu/quickmenu.wxml-->
-<view class="quickmenu">
-  <navigator url="/pages/PageA/pagea" open-type="switchTab">PageA</navigator>
-  <navigator url="/pages/PageB/pageb" open-type="switchTab">PageB</navigator>
-  <navigator url="/pages/PageC/pagec" open-type='redirectTo'>PageC</navigator>
-  <navigator url="/pages/PageD/paged" open-type="navigateTo">PageD</navigator>
-</view>

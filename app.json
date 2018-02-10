@@ -1,13 +1,9 @@
 {
   "pages": [
-    "pages/PageA/pagea",
-    "pages/PageB/pageb",
-    "pages/PageC/pagec",
-    "pages/PageD/paged",
-    "pages/index/index",
-    "pages/logs/logs",
     "pages/todo/todo",
-    "pages/list/list"
+    "pages/list/list",
+    "pages/index/index",
+    "pages/logs/logs"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -18,16 +14,8 @@
   "tabBar": {
     "list": [
       {
-        "pagePath": "pages/PageA/pagea",
-        "text": "PageA"
-      },
-      {
-        "pagePath": "pages/PageB/pageb",
-        "text": "PageB"
-      },
-      {
         "pagePath": "pages/todo/todo",
-        "text": "ToDo"
+        "text": "Form"
       },
       {
         "pagePath": "pages/list/list",

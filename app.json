@@ -5,9 +5,7 @@
     "pages/PageC/pagec",
     "pages/PageD/paged",
     "pages/index/index",
-    "pages/logs/logs",
-    "pages/todo/todo",
-    "pages/list/list"
+    "pages/logs/logs"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -24,14 +22,6 @@
       {
         "pagePath": "pages/PageB/pageb",
         "text": "PageB"
-      },
-      {
-        "pagePath": "pages/todo/todo",
-        "text": "ToDo"
-      },
-      {
-        "pagePath": "pages/list/list",
-        "text": "List"
       }
     ]
   },

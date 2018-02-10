@@ -38,9 +38,9 @@ Page({
     // item
     index_index_items_tmpl: {
       items: [
-        { image: 'https://hamlet.b0.upaiyun.com/1609/22111/fe8765fa7f2f48cd87760c10ddd20ae6.jpg' },
-        { image: 'https://hamlet.b0.upaiyun.com/1609/22111/84439174cad04497beda3a076663beb4.jpg' },
-        { image: 'https://hamlet.b0.upaiyun.com/1609/22111/fe8765fa7f2f48cd87760c10ddd20ae6.jpg' }
+        { image: 'https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=622693738,405523256&fm=27&gp=0.jpg' },
+        { image: 'https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=622693738,405523256&fm=27&gp=0.jpg' },
+        { image: 'https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=622693738,405523256&fm=27&gp=0.jpg' }
       ]
     }
 

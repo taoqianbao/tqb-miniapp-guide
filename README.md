@@ -4,6 +4,13 @@
 
 [学习资料](http://taoqianbao.github.io/2018/02/08/miniapp/how-to-study)
 
+branches:
+- 01-QuickStart
+- 02-LayoutFlex
+- 03-Route
+- 04-Form
+- 05-weui
+
 
 尤其注意 不同路由方法之间的区别；
 

@@ -8,9 +8,10 @@
 		"newFeature": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "1.9.91",
-	"appid": "touristappid",
-	"projectname": "tqb-step-one",
+	"libVersion": "1.9.1",
+	"appid": "wx7edeeb3edee2b00e",
+	"projectname": "tqb-miniapp-flex",
+	"isGameTourist": false,
 	"condition": {
 		"search": {
 			"current": -1,

@@ -65,6 +65,51 @@
   justify-content: center;
 }
 
+/*
+seven-face
+*/
+
+.seven-face {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.seven-face .third-face {
+  flex: 3;
+  height: 40%;
+}
+
+.seven-face .fourth-face {
+  flex: 2;
+}
+
+/*eight-face*/
+
+.eight-face {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.eight-face-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/*nine-face*/
+
+.nine-face {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
 .face {
   margin: 16px;
   padding: 4px;

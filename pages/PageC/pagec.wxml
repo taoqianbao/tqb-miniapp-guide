@@ -6,9 +6,11 @@
   <view>
     This is PageC
   </view>
-  <block wx:for="{{pageList}}" wx:key>
-    <view class='item'>
-      {{index}}: {{item.route}}
-    </view>
-  </block>
+  <view style='width:90%; padding:20rpx 0; border:1rpx solid red;'>
+    <block wx:for="{{pageList}}" wx:key>
+      <view class='item'>
+        {{index}}: {{item.route}}
+      </view>
+    </block>
+  </view>
 </view>

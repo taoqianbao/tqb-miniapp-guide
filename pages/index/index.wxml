@@ -1,4 +1,6 @@
 <!--index.wxml-->
+<import src="/components/templates/msgItem.wxml" />
+
 <view class="container">
   <view class="userinfo">
     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
@@ -9,5 +11,20 @@
   </view>
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
+  </view>
+
+  <view style="width:100%; margin:20rpx; background:#dcdcdc;">
+    <text>test components</text>
+    <mini-quickmenu></mini-quickmenu>
+  </view>
+
+  <view style="width:100%; margin:20rpx; background:#dcdcdc;">
+    <text>this is demo about Template (import)</text>
+    <template is="msgItem" data="{{...templateData}}" />
+  </view>
+
+  <view style="width:100%; margin:20rpx; background:#dcdcdc;">
+    <text>this is demo about Template (include)</text>
+    <include src="/components/templates/footer.wxml" />
   </view>
 </view>
